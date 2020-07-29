@@ -1,10 +1,11 @@
 {
-  "name": "multiroom_chat",
+  "name": "apps_js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Jorge",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "consign": "^0.1.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "express-validator": "^2.20.8"
+    "express-validator": "^2.20.8",
+    "nodemon": "^2.0.4"
   }
 }
